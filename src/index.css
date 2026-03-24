@@ -1,0 +1,12 @@
+/* Faço reset à margem do body para evitar espaçamentos estranhos */
+body {
+    margin: 0;
+}
+
+/* O root ocupa a altura total do ecrã e usa flexbox
+   para permitir que o footer fique no fundo da página */
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
